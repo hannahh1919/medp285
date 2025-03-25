@@ -1,0 +1,63 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* END border-box fix */
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    margin: 0px auto;
+    background-color: #437944; /* hex color for green */
+    color: #ffffff; /* white text */
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #437944; /* hex color for green */
+    flex: 1 0 100%;
+}
+
+main {
+    background-color: #485f48; /* hex color for darker green */
+    flex: 1 1 500px;
+}
+
+nav {
+    background-color: #0a0f0a; /* hex color for dark blackish-green */
+    flex: 1 0 200px;
+}
+
+aside {
+    background-color: #41c643; /* hex color for light green */
+    flex: 1 0 200px;
+}
+
+footer {
+    background-color: #97d298; /* hex color for light green */
+    flex: 1 0 100%;
+}
+
+#wrapper > * {
+    padding: 30px;
+}
+
+body {
+    background-image: url('music.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Load Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');

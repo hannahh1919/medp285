@@ -1,0 +1,63 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* END border-box fix */
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: 'Lora', serif; /* New Google Font */
+}
+
+#wrapper {
+    margin: 0px auto;
+    background-color: #ff5733; /* hex color for a warm orange-red */
+    color: white;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #437944; /* hex color for green */
+    flex: 1 0 100%;
+}
+
+main {
+    background-color: #485f48; /* hex color for darker green */
+    flex: 1 1 500px;
+}
+
+nav {
+    background-color: #0a0b0a; /* hex color for dark greenish-black */
+    flex: 1 0 200px;
+}
+
+aside {
+    background-color: #41c643; /* hex color for light green */
+    flex: 1 0 200px;
+}
+
+footer {
+    background-color: #97d298; /* hex color for light green */
+    flex: 1 0 100%;
+}
+
+#wrapper > * {
+    padding: 30px;
+}
+
+body {
+    background-image: url('grey.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif; /* Apply Google font to body text */
+}
+
+/* Load Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');

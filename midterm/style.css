@@ -1,0 +1,182 @@
+/* START border-box fix */
+
+html {
+
+    box-sizing: border-box;
+  
+  }
+  
+  *,
+  
+  *:before,
+  
+  *:after {
+  
+    box-sizing: inherit;
+  
+  }
+  
+  /* END border-box fix */
+  h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6 {
+
+    text-transform: uppercase;
+
+}
+
+#wrapper {
+
+    margin: 0px auto;
+
+    /* centers the wrapper */
+
+        background-color: violet;
+
+    color: rgba(14, 4, 150, 0.046);
+
+    max-width: 1000px;
+
+    /* max-width: 80%; */
+
+}
+
+
+
+
+#wrapper {
+
+    margin: 0px auto;
+
+    /* centers the wrapper */
+
+        background-color: red;
+
+    color: rgb(255, 255, 255);
+
+    max-width: 1000px;
+
+    /* max-width: 80%; */
+
+}
+
+
+
+
+#wrapper {
+
+    margin: 0px auto;
+
+    /* centers the wrapper */
+
+    background-color: rgb(67, 137, 68);
+
+    color: white;
+
+    max-width: 1000px;
+
+    /* max-width: 80%; */
+
+    display: flex;
+
+    /* use flex box */
+
+    flex-wrap: wrap;
+
+    /* wrap flex items inside the #wrapper */
+
+}
+
+
+
+
+header {
+
+    background-color: rgb(67, 137, 68);
+
+    flex: 1 0 100%;
+
+    /* grow on, shrink off, span width of wrapper */
+
+}
+
+
+
+
+main {
+
+    background-color: rgb(72, 96, 72);
+
+    flex: 1 1 500px;
+
+}
+
+nav {
+
+    background-color: rgb(11, 12, 11);
+
+    flex: 1 0 200px;
+
+    /* grow but do not shrink less than basis */
+
+}
+
+aside {
+
+    background-color: rgb(65, 198, 67);
+
+    flex: 1 0 200px;
+
+    /* grow but do not shrink less than basis */
+
+}
+
+footer {
+
+    background-color: rgb(236, 239, 236);
+
+    flex: 1 0 100%;
+
+    /* grow on, shrink off, span width of wrapper */
+
+}
+
+
+
+
+order: 5;
+
+
+
+
+/* Add padding to all of the wrapper child elements */
+
+#wrapper>* {
+
+    padding: 30px;
+
+  }
+
+  body {
+    background-image: url('music.jpg');
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+}
+  font-family: 'Roboto', sans-serif; /* Sets the font for the body */
+  color: #ffffff; /* Sets the text color to white */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh; /* Sets height to full viewport height */
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Musical</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .note {
+        position: absolute;
+        font-size: 30px;
+        color: lime;
+        animation: float 6s infinite ease-in-out;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translate(0, 0); /* Top-left corner */
+        }
+        25% {
+            transform: translate(100vw, 0); /* Top-right corner */
+        }
+        50% {
+            transform: translate(100vw, 100vh); /* Bottom-right corner */
+        }
+        75% {
+            transform: translate(0, 100vh); /* Bottom-left corner */
+        }
+        100% {
+            transform: translate(0, 0); /* Back to top-left */
+        }
+    }
+
+    .note:nth-child(1) {
+        animation-duration: 5s;
+        left: 10%;
+    }
+    .note:nth-child(2) {
+        animation-duration: 7s;
+        left: 30%;
+    }
+    .note:nth-child(3) {
+        animation-duration: 6s;
+        left: 50%;
+    }
+    .note:nth-child(4) {
+        animation-duration: 8s;
+        left: 70%;
+    }
+    .note:nth-child(5) {
+        animation-duration: 9s;
+        left: 90%;
+    }
+</style>
+<body>
+    <div class="note">🎵</div>
+    <div class="note">🎶</div>
+    <div class="note">🎼</div>
+    <div class="note">🎧</div>
+    <div class="note">🎤</div>
+    <div class="note">🎷</div>
+    <div class="note">🎺</div>
+    <div class="note">🎸</div>
+    <div class="note">🎻</div>
+    <div class="note">🎼</div>
+    <div class="note">🎵</div>
+    <div class="note">🎶</div>
+</body>
+<body>
+
+	    <div id="wrapper">
+	    	<header>
+	    		<h1>musical content</h1>
+			</header>
+	    	<main>
+	    	   <h2>musical brands </h2>
+		        <h3>musics brands </h3>
+		         <p> In the world, there are mutiple ways to listen, share, promote ,learn, etc  when  it comes to music
+                    , for example music labels, youtube, streaming deviecs, schools,festivals, store, etc.</p>
+		             <p>there is alof of music labels and awards shows that artist are apart of. capitol records is one of 
+                        the popular ones that most artist are apart of. there is also the grammys, the oscars, the bet awards,
+                        the mtv awards, the american music awards, the billboard awards, the country music awards, the latin among other
+                     </p>
+                     <a href="https://www.guitarguitar.co.uk/brands/" target="_blank"><img src="brand.jpg" alt="brands" width="150" height="200"></a>
+                     <a href="https://www.gibson.com/en-US/?srsltid=AfmBOor1o3Qc9IhN5Z8vQx8OgjrCGkxfTUqzndWxNk48Ib3pWOQFfw6N" target="_blank"><img src="brands.png" alt="brands" width="150" height="200"></a>
+                     <a href="https://www.guitarcenter.com/?source=4WWRWXGT&utm_source=paid-search&utm_channel=paid-search&utm_medium=google&utm_platform=google&utm_campaign=GC_G_TM_SEM-STD_N_HV_Exact&utm_ct=tm&utm_tactic=prospecting&utm_segment=brand&utm_term=guitar%20center&utm_content=616208537210&gad_source=1&gclid=Cj0KCQjwhYS_BhD2ARIsAJTMMQbjQgjNHgSq6tlmyHS3VmQWzDMFCZrLejRzsO3kBUOcA6l1w_AzKU8aAsjDEALw_wcB" target="_blank"><img src="brands2.png" alt="brands" width="150" height="200"></a>
+                    
+	    	</main>
+	    	
+	    	<nav>
+				<ul>
+
+                    <li><a href="index.html">HOME</a></li>
+                  <li><a href="famouspeople.html">Famous People</a></li>
+
+
+                </ul>
+
+	    		<h2>Music Streaming Services</h2>
+		        <ul>
+		          <li>Spotify</li><a href="https://open.spotify.com/" target="_blank">Spotify</a>
+		          <li>apple music </li> <a href="https://music.apple.com/" target="_blank">Apple Music</a>
+		          <li>youtube music </li><a href="https://music.youtube.com/" target="_blank">YouTube Music</a>
+		          <li>tidal</li><a href="https://tidal.com/" target="_blank">Tidal</a>
+                    <li>deezer</li> <a href="https://www.deezer.com/" target="_blank">Deezer</a>
+                    <li>soundcloud</li> <a href="https://soundcloud.com/" target="_blank">SoundCloud</a>
+                    <li>pandora</li><a href="https://www.pandora.com/" target="_blank">Pandora</a>
+                    <li>iheartradio</li><a href="https://www.iheart.com/" target="_blank">iHeartRadio</a>
+                    <li>napster</li><a href="https://us.napster.com/" target="_blank">Napster</a>
+                    <div class="music-links">
+                        <a href="https://www.iheart.com/" target="_blank">iHeartRadio</a>
+                    </div>
+		        </ul>
+		    </nav>
+	    	
+	    	<aside>
+	    		<h2>other popular music brands</h2>
+		        <p>popular gutairs and instrument</p>
+                <p>Electric Guitars,
+                    Fender Stratocaster,
+                    Gibson Les Paul,
+                    Fender Telecaster,
+                    Gibson SG,
+                    PRS (Paul Reed Smith) Custom 24,
+                    Ibanez RG Series,
+                    Rickenbacker 360,
+                    Acoustic Guitars,
+                    Martin D-28,
+                    Gibson J-45,
+                    Taylor 814ce,
+                    Yamaha FG800,
+                    Bass Guitars,
+                    Fender Precision Bass (P-Bass),
+                    Fender Jazz Bass,
+                    Gibson Thunderbird,
+                    Music Man StingRay,
+                    Signature and Iconic Guitars,
+                    Jimi Hendrix’s Monterey Stratocaster,
+                    Slash's "Appetite for Destruction" Les Paul,
+                    Kurt Cobain’s Fender Mustang,
+                    The Edge’s Gibson Explorer</p>
+                <p>Guitar,
+                    Piano,
+                    Violin,
+                    Cello,
+                    Bass Guitar,
+                    Harp,
+                    Ukulele</p>  
+                <p>Pop,
+                    Rock,
+                    Hip-Hop/Rap,
+                    R&B,
+                    Electronic Dance Music (EDM),
+                    Country,
+                    Jazz,
+                    Classical,
+                    Reggae,
+                    Indie,</p>
+                <p>Michael Jackson,
+                    Beyoncé,
+                    The Beatles,
+                    Drake,
+                    Ariana Grande,
+                    Taylor Swift,
+                    Ed Sheeran,
+                    Kendrick Lamar,
+                    Billie Eilish,
+                    Justin Bieber,</p>
+		    </aside>
+
+	    	<footer>
+	    		<h2>footer</h2>
+                <p>@hannah HERNANDEZ</p>
+	    	</footer>
+
+	    </div>
+
+</body>
+</html>
